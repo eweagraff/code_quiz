@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a id="highscores" href="#">View Highscores</a>
+      <div id="timer"></div>
+    </div>
+    <div class="container">
+        <!--PAGE 1-->
+        <div class="page">
+            <h2 id="start-page-header">Thailand Quiz!</h2>
+            <p id="instructions"> Answer the following multiple choice questions about Thailand within the time limit. However, any incorrect answer will penalize your score by 10 seconds!
+                </p>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button type="submit" id="start-quiz">Start Quiz</button>
+            </div>
+        </div>
+    
+
+    <img src="./assets/images/Bangkok.Thailand.jpeg" width="400px"/>
+
+
+    <!--PAGE 2-->
+    <div class="page">
+        <h2 class="question-header">What is the capital of Thailand?></h2>
+    
+        <div id="choices">
+            <button class="choice" id="A">Kathmandu</button>
+            </br>
+            <button class="choice" id="B">Bangkok</button>
+           </br>
+            <button class="choice" id="C">Bhutan</button>
+            </br>
+            <button class="choice" id="D">Bangledash</button>
+            </div>
+    
+    </div>
+
+    <!--PAGE 3-->
+        <div class="page">
+             <h2 class="question-header">What is the main form of transportation in Thailand?></h2>
+    
+        <div id="choices">
+            <button class="choice" id="A">Car</button>
+            </br>
+            <button class="choice" id="B">Bicycle</button>
+           </br>
+            <button class="choice" id="C">Motorbike</button>
+        </br>
+            <button class="choice" id="D">Walk</button>
+            </div>
+    
+    </div>
+    <!--PAGE 4-->
+     <div class="page">
+          <h2 class="question-header">What language do they speak in Thailand?></h2>
+    
+        <div id="choices">
+            <button class="choice" id="A">Taiwanese</button>
+            </br>
+            <button class="choice" id="B">Thai</button>
+           </br>
+            <button class="choice" id="C">Hindi</button>
+        </br>
+            <button class="choice" id="D">Tagalog</button>
+            </div>
+    
+    </div>
+    <!--PAGE 5-->
+
+    <div class="page">
+        <h2 class="question-header">What is the currency in Thailand?></h2>
+    
+        <div id="choices">
+            <button class="choice" id="A">Baht</button>
+            </br>
+            <button class="choice" id="B">Yen</button>
+           </br>
+            <button class="choice" id="C">American Dollar</button>
+        </br>
+            <button class="choice" id="D">Rupi</button>
+            </div>
+    
+    </div>
+
+    <!--PAGE 6-->
+     <div class="page">
+        <h2 class="question-header">What is the best part of Thailand?></h2>
+    
+        <div id="choices">
+            <button class="choice" id="A">The people</button>
+        </br>
+            
+            <button class="choice" id="B">The food</button>
+            </br>
+            <button class="choice" id="C">The culture</button>
+             </br>
+       
+            <button class="choice" id="D">All of the above</button>
+             </br>
+            </div>
+    
+    </div>
+    <!--Page 7-->
+    <div class="page">
+        <h2 id="done-header">The Quiz is Complete!</h2>
+        Your final score is <span id="score"></span>!
+        <form> 
+            <label for="initial">Enter initials:</label>
+            <input type="text" id="initials">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
